@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 0;
+    width: 500px;
+    height: 500px;
+    border: 1px solid salmon;
+    margin: 20px auto 20px auto;
+    padding: 14px;
+}
+
+.aa {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 29.4117px;
+    height: 29.4117px;
+    border-radius: 50%;
+}

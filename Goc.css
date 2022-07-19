@@ -32,7 +32,7 @@ body {
     height: 120px;
     border: 1px solid red;
 }
-a{
+.component-box > a{
     cursor: pointer;
 }
 .aa {

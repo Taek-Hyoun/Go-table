@@ -15,7 +15,7 @@ body {
     font-size: 0;
     width: 500px;
     height: 500px;
-    border: 1px solid salmon;
+    border: 1px solid black;
     padding: 14px;
 }
 .log-box{
@@ -23,14 +23,19 @@ body {
     right: 0;
     width: 120px;
     height: 528px;
-    border: 1px solid lightblue;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.log{
+    cursor: pointer;
+    text-align: center;
 }
 .component-box{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 120px;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .component-box > a{
     cursor: pointer;
